@@ -3,6 +3,7 @@
 body{
     background-color: #20262E;
 }
+a{text-decoration: none;}
 #navbar{
     height: 15vh;
     background-color: #E9E8E8;
@@ -48,19 +49,30 @@ h4{
 }
 
 /* Works */
-#workscont{
+h4{
+    font-size: 20px;
+}
+.firstproject{
+    width: 30vh;
+}
+#headernav{
     text-align: center;
+    margin: 5vh 0 10vh 0;
+}
+#header{
+    font-size: 5vh;
+    color: #E9E8E8;
+}
+.workscont{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    height: 60vh;
-    position: relative;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 5vh;
 }
 .flip-card {
     background-color: transparent;
-    width: 190px;
-    height: 254px;
+    width: 45vh;
+    height: 50vh;
     perspective: 1000px;
     font-family: sans-serif;
   }
@@ -97,19 +109,26 @@ h4{
     backface-visibility: hidden;
     border: 1px solid coral;
     border-radius: 1rem;
+    align-items: center;
   }
   
   .flip-card-front {
-    background: linear-gradient(120deg, bisque 60%, rgb(255, 231, 222) 88%,
-       rgb(255, 211, 195) 40%, rgba(255, 127, 80, 0.603) 48%);
-    color: coral;
+    background: #00425A
+
   }
   
   .flip-card-back {
-    background: linear-gradient(120deg, rgb(255, 174, 145) 30%, coral 88%,
-       bisque 40%, rgb(255, 185, 160) 78%);
-    color: white;
+    background: #00425A;
+    color: #CD5888;
+    line-height: 50px;
     transform: rotateY(180deg);
+  }
+  .flip-card-back h5{font-size: 32px;}
+  .flip-card-back p{font-size: 24px;}
+  .flip-card-back p a { color: #BFDB38;}
+  .headercard{
+      margin: 1vh 0;
+      font-size: 2vh;
   }
 /* Contact */
 
