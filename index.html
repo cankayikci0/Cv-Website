@@ -6,21 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="mystyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js" integrity="sha256-eTyxS0rkjpLEo16uXTS0uVCS4815lc40K2iVpWDvdSY=" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
 </head>
 <body>
     <div id="container" >
+        <div class="main"></div>
         <div id="navbar">
             <div class="items photo"></div>
             <div class="content">
-                <div class="items info"><a id="works" target="_blank" href="./tabs/works.html">Works</a></div>
-                <div class="items info"><a id="contact" target="_blank" href="./works.html">Contact</a></div>
-                <div class="items info"><a id="about" target="_blank" href="./works.html">About</a></div>
+                
+                
             </div>  
         </div>
         <div id="infocontainer">
             <h1>Can Kayıkcı</h1>
-            <h3>a web designer</h3>
+            <!-- <h3>web designer</h3> -->
+            <div class="links">
+                <a target = "_blank" href="https://github.com/cankayikci0"><i class="icons fa-brands fa-github"></i></a>
+                <a target = "_blank" href="www.linkedin.com/in/cankayikci"><i class="icons fa-brands fa-linkedin"></i></a>
+            </div>
         </div>
     </div>
+    <div class="animation ani1"><i class="ship fa-brands fa-space-awesome"></i></div>
+    <div class="animation ani2"><i class="ship fa-brands fa-space-awesome"></i></div>
+    <div class="items info item1"><a target="_blank" href="./tabs/works.html">Works</a></div>
+    <div class="items info item2"><a target="_blank" href="./tabs/about.html">About</a></div>
 </body>
 </html>
